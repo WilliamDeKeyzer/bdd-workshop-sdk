@@ -8,7 +8,7 @@ import (
 const (
 	MinTemperature              = 30
 	MaxTemperature              = 100
-	DefaultOperationTemperature = 60 // Only needed in exercise 3
+	DefaultOperationTemperature = 40 // Only needed in exercise 3
 )
 
 var (

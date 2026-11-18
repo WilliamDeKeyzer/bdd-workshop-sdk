@@ -19,15 +19,15 @@ func Test_GetWattUseage(t *testing.T) {
 		},
 		"30_degrees": {
 			temp:     30,
-			expected: 300,
+			expected: 450,
 		},
 		"45_degrees": {
 			temp:     45,
-			expected: 450,
+			expected: 675,
 		},
 		"70_degrees": {
 			temp:     70,
-			expected: 700,
+			expected: 1050,
 		},
 	}
 	for name, tc := range tests {
